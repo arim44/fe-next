@@ -64,7 +64,7 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: fe-next-har
-          slot-name: 'Production'
+          slot-name: 'staging'
           package: release.zip
           # 시작 명령은 Azure Portal > App Service > 구성 > 일반 설정 >
           # 시작 명령에 `node server.js` 로 설정해 둘 것.
